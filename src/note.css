@@ -1,0 +1,43 @@
+.note-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#submit{
+    border: none;
+    margin-left: 5px;
+    height:30px;
+    width:60px;
+    background-color: white;
+    font-size: x-large;
+}
+
+
+.note-grid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+
+}
+
+.note-card {
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-card p {
+   
+    margin-bottom: 15px;
+}
+
+.note-card button {
+   
+    height:30px;
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    margin-right:10px;
+}
